@@ -39,5 +39,7 @@ class QuadraticEquation{
                 
                     System.out.println("The equation has no real roots");
                 }
+
     }
+
 }
