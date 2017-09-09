@@ -20,28 +20,24 @@ class QuadraticEquation{
 
                 if(d > 0){
                 
-                    System.out.println("Roots are real and unequal");
-
+                    
                     double r1 = ( - b + Math.pow(d, 0.5)) / (2 * a);
 
                     double r2 = (-b - Math.pow(d, 0.5)) / (2 * a);
 
-                    System.out.print("First root is: " + r1);
+                    System.out.print("The equation has two roots : " + r1 + " and " + r2);
 
-                    System.out.print("Second root is: " + r2);
                  }
                 else if(d == 0){
                 
-                    System.out.println("Roots are real and equal");
-
                     double r1 = (-b + Math.pow(d, 0.5)) / (2 * a);
 
-                    System.out.print("Root: " + r1);
+                    System.out.print("The equation has one root : " + r1);
                 }
 
                 else{
                 
-                    System.out.println("Roots are imaginary");
+                    System.out.println("The equation has no real roots");
                 }
     }
 }
